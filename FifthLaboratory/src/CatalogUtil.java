@@ -16,15 +16,15 @@ public class CatalogUtil {
     }
 
     public static Catalog load(String path) // loads the catalog from an external file.
-            throws InvalidCatalogException {
+            throws InvalidCatalogException, FileNotFoundException{
         try {
             FileInputStream file = new FileInputStream(path);
             ObjectInputStream in = new ObjectInputStream(file);
+
             Catalog c = (Catalog) in.readObject();
 
             System.out.println("Success");
             in.close();
-            file.close();
 
             return c;
         } catch (IOException e) {
