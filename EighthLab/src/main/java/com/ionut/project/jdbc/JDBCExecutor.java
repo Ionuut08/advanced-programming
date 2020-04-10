@@ -1,9 +1,11 @@
 package com.ionut.project.jdbc;
 
+import com.github.javafaker.Faker;
 import com.ionut.project.jdbc.DatabaseConnectionManager;
 
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.util.Date;
 
 public class JDBCExecutor {
 
@@ -13,43 +15,21 @@ public class JDBCExecutor {
             /* Establishing the connection */
             Connection connection = connectionManager.getConnection();
 
-            /* Testing the insert method */
-            /* Album */
-
             AlbumDAO albumDAO = new AlbumDAO(connection);
-//
-//            Album album = new Album();
-//            album.setId(5);
-//            album.setName("The Summer");
-//            album.setReleaseYear(1717);
-//            album.setArtistId(5);
-//            albumDAO.create(album);
 
-            /* Artist */
+            Album album = new Album();
+            for (int i = 6; i < 20; i++) {
+                album.setId(i);
 
-//            ArtistDAO artistDAO = new ArtistDAO(connection);
-//
-//            Artist artist = new Artist();
-//            artist.setName("Mozart");
-//            artist.setCountry("Italy");
-//            artistDAO.create(artist);
+                Faker faker = new Faker();
+                String fakeAlbumName = faker.name().firstName();
+                Date fakeAlbumReleaseYear = faker.date().birthday();
 
-
-
-            /* Testing findByArtist method */
-
-            /* Album */
-
-//            Album album = albumDAO.findByArtist(4);
-//            System.out.println(album.getName());
-
-            /* Artist*/
-
-//            Artist artist = artistDAO.findByName("Ionut");
-//            System.out.println(artist.getId());
-//            System.out.println(artist.getCountry());
-
-            /* Closing the connection */
+                album.setName(fakeAlbumName);
+                album.setReleaseYear((int)(fakeAlbumReleaseYear).getTime());
+                album.setArtistId(i);
+                albumDAO.create(album);
+            }
 
             connection.close();
 
