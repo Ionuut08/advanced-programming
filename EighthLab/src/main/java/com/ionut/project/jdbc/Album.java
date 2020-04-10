@@ -42,4 +42,14 @@ public class Album implements DataTransferObject {
     public void setReleaseYear(int releaseYear) {
         this.releaseYear = releaseYear;
     }
+
+    @Override
+    public String toString() {
+        return "Album{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", artistId=" + artistId +
+                ", releaseYear=" + releaseYear +
+                '}';
+    }
 }

@@ -1,6 +1,7 @@
 package com.ionut.project.jdbc;
 
 import com.ionut.project.jdbc.DatabaseConnectionManager;
+import com.sun.security.jgss.GSSUtil;
 
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -13,43 +14,24 @@ public class JDBCExecutor {
             /* Establishing the connection */
             Connection connection = connectionManager.getConnection();
 
-            /* Testing the insert method */
-            /* Album */
+            /* PERFORMING CRUD OPERATIONS */
 
             AlbumDAO albumDAO = new AlbumDAO(connection);
-//
-//            Album album = new Album();
-//            album.setId(5);
-//            album.setName("The Summer");
-//            album.setReleaseYear(1717);
-//            album.setArtistId(5);
-//            albumDAO.create(album);
 
-            /* Artist */
+            Album album = new Album();
+            album.setId(34);
+            album.setName("The Spring Goes Along With i");
+            album.setReleaseYear(1990);
+            album.setArtistId(26);
 
-//            ArtistDAO artistDAO = new ArtistDAO(connection);
-//
-//            Artist artist = new Artist();
-//            artist.setName("Mozart");
-//            artist.setCountry("Italy");
-//            artistDAO.create(artist);
-
-
-
-            /* Testing findByArtist method */
-
-            /* Album */
-
-//            Album album = albumDAO.findByArtist(4);
-//            System.out.println(album.getName());
-
-            /* Artist*/
-
-//            Artist artist = artistDAO.findByName("Ionut");
-//            System.out.println(artist.getId());
-//            System.out.println(artist.getCountry());
-
-            /* Closing the connection */
+            album = albumDAO.create(album);
+            System.out.println(album);
+            album = albumDAO.findById(album.getId());
+            System.out.println(album.toString());
+            album.setReleaseYear(1916);
+            album = albumDAO.update(album);
+            System.out.println(album.toString());
+            albumDAO.delete(album.getId());
 
             connection.close();
 
