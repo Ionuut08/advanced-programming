@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe0ec959-2388-4419-82c2-871a389ee794" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e5bd6f2d-1f73-46f6-9d9b-3a8c55c3922a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e5bd6f2d-1f73-46f6-9d9b-3a8c55c3922a.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ionut/project/jdbc/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ionut/project/jdbc/Album.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ionut/project/jdbc/AlbumDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ionut/project/jdbc/AlbumDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ionut/project/jdbc/ArtistDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ionut/project/jdbc/ArtistDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ionut/project/jdbc/JDBCExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ionut/project/jdbc/JDBCExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ionut/project/jdbc/util/DataAccessObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ionut/project/jdbc/util/DataAccessObject.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +94,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/SeventhLaboratory" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -160,7 +154,10 @@
       <updated>1586412700634</updated>
       <workItem from="1586412709278" duration="13222000" />
       <workItem from="1586450831467" duration="6804000" />
-      <workItem from="1586502154883" duration="9305000" />
+      <workItem from="1586502154883" duration="9843000" />
+      <workItem from="1586537701256" duration="2471000" />
+      <workItem from="1586597894903" duration="1799000" />
+      <workItem from="1586685852123" duration="685000" />
     </task>
     <servers />
   </component>
@@ -187,38 +184,38 @@
       <screen x="0" y="30" width="1680" height="963" />
     </state>
     <state x="200" y="269" key="FileChooserDialogImpl/0.30.1680.963@0.30.1680.963" timestamp="1586517930105" />
-    <state width="827" height="262" key="GridCell.Tab.0.bottom" timestamp="1586521973854">
+    <state width="954" height="262" key="GridCell.Tab.0.bottom" timestamp="1586522983564">
       <screen x="0" y="30" width="1680" height="963" />
     </state>
-    <state width="827" height="262" key="GridCell.Tab.0.bottom/0.30.1680.963@0.30.1680.963" timestamp="1586521973854" />
+    <state width="954" height="262" key="GridCell.Tab.0.bottom/0.30.1680.963@0.30.1680.963" timestamp="1586522983564" />
     <state width="781" height="207" key="GridCell.Tab.0.bottom/0.30.1680.967@0.30.1680.967" timestamp="1586436337703" />
     <state width="1320" height="260" key="GridCell.Tab.0.bottom/0.30.1680.969@0.30.1680.969" timestamp="1586457641653" />
     <state width="1637" height="260" key="GridCell.Tab.0.bottom/0.30.1680.971@0.30.1680.971" timestamp="1586456477535" />
-    <state width="827" height="262" key="GridCell.Tab.0.center" timestamp="1586521973854">
+    <state width="954" height="262" key="GridCell.Tab.0.center" timestamp="1586522983564">
       <screen x="0" y="30" width="1680" height="963" />
     </state>
-    <state width="827" height="262" key="GridCell.Tab.0.center/0.30.1680.963@0.30.1680.963" timestamp="1586521973854" />
+    <state width="954" height="262" key="GridCell.Tab.0.center/0.30.1680.963@0.30.1680.963" timestamp="1586522983564" />
     <state width="781" height="207" key="GridCell.Tab.0.center/0.30.1680.967@0.30.1680.967" timestamp="1586436337702" />
     <state width="1320" height="260" key="GridCell.Tab.0.center/0.30.1680.969@0.30.1680.969" timestamp="1586457641653" />
     <state width="1637" height="260" key="GridCell.Tab.0.center/0.30.1680.971@0.30.1680.971" timestamp="1586456477534" />
-    <state width="827" height="262" key="GridCell.Tab.0.left" timestamp="1586521973854">
+    <state width="954" height="262" key="GridCell.Tab.0.left" timestamp="1586522983563">
       <screen x="0" y="30" width="1680" height="963" />
     </state>
-    <state width="827" height="262" key="GridCell.Tab.0.left/0.30.1680.963@0.30.1680.963" timestamp="1586521973854" />
+    <state width="954" height="262" key="GridCell.Tab.0.left/0.30.1680.963@0.30.1680.963" timestamp="1586522983563" />
     <state width="781" height="207" key="GridCell.Tab.0.left/0.30.1680.967@0.30.1680.967" timestamp="1586436337702" />
     <state width="1320" height="260" key="GridCell.Tab.0.left/0.30.1680.969@0.30.1680.969" timestamp="1586457641653" />
     <state width="1637" height="260" key="GridCell.Tab.0.left/0.30.1680.971@0.30.1680.971" timestamp="1586456477534" />
-    <state width="827" height="262" key="GridCell.Tab.0.right" timestamp="1586521973854">
+    <state width="954" height="262" key="GridCell.Tab.0.right" timestamp="1586522983564">
       <screen x="0" y="30" width="1680" height="963" />
     </state>
-    <state width="827" height="262" key="GridCell.Tab.0.right/0.30.1680.963@0.30.1680.963" timestamp="1586521973854" />
+    <state width="954" height="262" key="GridCell.Tab.0.right/0.30.1680.963@0.30.1680.963" timestamp="1586522983564" />
     <state width="781" height="207" key="GridCell.Tab.0.right/0.30.1680.967@0.30.1680.967" timestamp="1586436337702" />
     <state width="1320" height="260" key="GridCell.Tab.0.right/0.30.1680.969@0.30.1680.969" timestamp="1586457641653" />
     <state width="1637" height="260" key="GridCell.Tab.0.right/0.30.1680.971@0.30.1680.971" timestamp="1586456477535" />
-    <state x="536" y="336" key="com.intellij.ide.util.TipDialog" timestamp="1586502156394">
+    <state x="536" y="336" key="com.intellij.ide.util.TipDialog" timestamp="1586685851551">
       <screen x="0" y="30" width="1680" height="963" />
     </state>
-    <state x="536" y="336" key="com.intellij.ide.util.TipDialog/0.30.1680.963@0.30.1680.963" timestamp="1586502156394" />
+    <state x="536" y="336" key="com.intellij.ide.util.TipDialog/0.30.1680.963@0.30.1680.963" timestamp="1586685851551" />
     <state x="536" y="338" key="com.intellij.ide.util.TipDialog/0.30.1680.969@0.30.1680.969" timestamp="1586450831288" />
     <state x="69" y="142" key="refactoring.ChangeSignatureDialog" timestamp="1586453564220">
       <screen x="0" y="30" width="1680" height="971" />
