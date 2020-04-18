@@ -6,6 +6,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.List;
 
 public class ArtistDAO extends DataAccessObject<Artist> {
 
@@ -58,6 +59,21 @@ public class ArtistDAO extends DataAccessObject<Artist> {
     @Override
     public Artist findById(int id) {
         return null;
+    }
+
+    @Override
+    public List<Artist> findAll() {
+        return null;
+    }
+
+    @Override
+    public Artist update(Artist dto) {
+        return null;
+    }
+
+    @Override
+    public void delete(int id) {
+
     }
 
 }

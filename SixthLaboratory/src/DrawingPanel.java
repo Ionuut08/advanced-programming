@@ -42,11 +42,17 @@ public class DrawingPanel extends JPanel {
         int radius = new Random().nextInt(50);
         int sides = (int) frame.configPanel.sidesField.getValue();
 
-        float r = (float) (random.nextFloat() / 2f + 0.5);
-        float g = (float) (random.nextFloat() / 2f + 0.5);
-        float b = (float) (random.nextFloat() / 2f + 0.5);
-        Color color = new Color(r, g, b);
-        graphics.setColor(color);
+        Random random = new Random();
+
+        if (frame.configPanel.colorCombo.getSelectedItem() == "BLACK") {
+            graphics.setColor(Color.BLACK);
+        } else {
+            float r = (float) (random.nextFloat() / 2f + 0.5);
+            float g = (float) (random.nextFloat() / 2f + 0.5);
+            float b = (float) (random.nextFloat() / 2f + 0.5);
+            Color color = new Color(r, g, b);
+            graphics.setColor(color);
+        }
         graphics.draw(new RegularPolygon(x, y, radius, sides));
         graphics.fill(new RegularPolygon(x, y, radius, sides));
         update(graphics);

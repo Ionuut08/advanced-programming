@@ -4,6 +4,7 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.List;
 
 public abstract class DataAccessObject <T extends DataTransferObject> {
 
@@ -22,6 +23,9 @@ public abstract class DataAccessObject <T extends DataTransferObject> {
     public abstract T findByName(String dto);
     public abstract T findByArtist(int dto);
     public abstract T findById(int id);
+    public abstract List<T> findAll();
+    public abstract T update(T dto);
+    public abstract void delete(int id);
 
     protected int getLastValue(String sequence) {
         int key = 0;
