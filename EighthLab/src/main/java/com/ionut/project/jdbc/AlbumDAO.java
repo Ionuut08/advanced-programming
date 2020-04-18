@@ -1,13 +1,14 @@
 package com.ionut.project.jdbc;
 
+import com.ionut.project.jdbc.entity.Album;
 import com.ionut.project.jdbc.util.DataAccessObject;
-import com.mysql.cj.result.SqlDateValueFactory;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
+
 
 public class AlbumDAO extends DataAccessObject<Album> {
 

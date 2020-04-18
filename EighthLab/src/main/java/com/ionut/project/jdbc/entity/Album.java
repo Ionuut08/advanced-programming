@@ -1,12 +1,24 @@
-package com.ionut.project.jdbc;
+package com.ionut.project.jdbc.entity;
 
 import com.ionut.project.jdbc.util.DataTransferObject;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name = "albums")
 public class Album implements DataTransferObject {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
+
+    @Column(name = "name")
     private String name;
+
+    @Column(name = "artist_id")
     private int artistId;
+
+    @Column(name = "release_year")
     private int releaseYear;
 
 

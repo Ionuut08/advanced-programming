@@ -1,26 +1,30 @@
-package com.ionut.project.jdbc;
+package com.example.demo.entities;
 
-import com.ionut.project.jdbc.util.DataTransferObject;
-
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.PostLoad;
+import javax.persistence.*;
+import java.io.Serializable;
 
 @Entity
-public class Artist implements DataTransferObject {
+@Table(name = "artists")
+@NamedQuery(name = "Artist.findByName", query = "SELECT a FROM Artist a WHERE a.name LIKE :name")
+public class Artist implements Serializable {
 
     @Id
+    @GeneratedValue
+    @Column
     private int id;
+
+    @Column
     private String name;
+
+    @Column
     private String country;
 
-    @Override
     public int getId() {
         return id;
     }
 
-    public void setId(long id) {
-        this.id = (int) id;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getName() {
@@ -38,5 +42,4 @@ public class Artist implements DataTransferObject {
     public void setCountry(String country) {
         this.country = country;
     }
-
 }
