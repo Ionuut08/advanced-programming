@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d1510350-5c86-4461-bd5f-ec48bd075e66" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/SixthLaboratory.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EighthLab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EighthLab/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DrawingPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DrawingPanel.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1aR7d7etnFBkU1uFtVg8J1xwTP7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d1510350-5c86-4461-bd5f-ec48bd075e66" name="Default Changelist" comment="" />
+      <created>1586686636632</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586686636632</updated>
+      <workItem from="1586686641665" duration="152000" />
+      <workItem from="1586686869324" duration="59000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="294" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586686785149">
+      <screen x="0" y="30" width="1680" height="963" />
+    </state>
+    <state x="294" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1680.963@0.30.1680.963" timestamp="1586686785149" />
+    <state x="688" y="400" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1586686705781">
+      <screen x="0" y="30" width="1680" height="963" />
+    </state>
+    <state x="688" y="400" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.30.1680.963@0.30.1680.963" timestamp="1586686705781" />
+    <state x="320" y="85" key="SettingsEditor" timestamp="1586686782775">
+      <screen x="0" y="30" width="1680" height="963" />
+    </state>
+    <state x="320" y="85" key="SettingsEditor/0.30.1680.963@0.30.1680.963" timestamp="1586686782775" />
+    <state x="536" y="335" key="com.intellij.ide.util.TipDialog" timestamp="1586686665798">
+      <screen x="0" y="30" width="1680" height="963" />
+    </state>
+    <state x="536" y="335" key="com.intellij.ide.util.TipDialog/0.30.1680.963@0.30.1680.963" timestamp="1586686665798" />
+  </component>
+</project>
