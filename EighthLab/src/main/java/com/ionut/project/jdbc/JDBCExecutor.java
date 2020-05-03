@@ -1,6 +1,7 @@
 package com.ionut.project.jdbc;
 
 import com.ionut.project.jdbc.DatabaseConnectionManager;
+import com.sun.security.jgss.GSSUtil;
 
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -8,53 +9,37 @@ import java.sql.SQLException;
 public class JDBCExecutor {
 
     public static void main(String[] args) throws SQLException {
-        DatabaseConnectionManager connectionManager = DatabaseConnectionManager.getInstance();
-        try {
-            /* Establishing the connection */
-            Connection connection = connectionManager.getConnection();
-
-            /* Testing the insert method */
-            /* Album */
-
-            AlbumDAO albumDAO = new AlbumDAO(connection);
+//        DatabaseConnectionManager connectionManager = DatabaseConnectionManager.getInstance();
+//        try {
+//            /* Establishing the connection */
+//            Connection connection = connectionManager.getConnection();
+//
+//            /* PERFORMING CRUD OPERATIONS */
+//
+//            AlbumDAO albumDAO = new AlbumDAO(connection);
 //
 //            Album album = new Album();
-//            album.setId(5);
-//            album.setName("The Summer");
-//            album.setReleaseYear(1717);
-//            album.setArtistId(5);
-//            albumDAO.create(album);
-
-            /* Artist */
-
-//            ArtistDAO artistDAO = new ArtistDAO(connection);
+//            album.setId(36);
+//            album.setName("The Spring Goes Along With i");
+//            album.setReleaseYear(1990);
+//            album.setArtistId(26);
 //
-//            Artist artist = new Artist();
-//            artist.setName("Mozart");
-//            artist.setCountry("Italy");
-//            artistDAO.create(artist);
+//            album = albumDAO.create(album);
+//            System.out.println(album);
+//            album = albumDAO.findById(album.getId());
+//            System.out.println(album.toString());
+//            album.setReleaseYear(1916);
+//            album = albumDAO.update(album);
+//            System.out.println(album.toString());
+//            albumDAO.delete(album.getId());
+//
+//            connection.close();
+//
+//        } catch (SQLException e) {
+//            e.printStackTrace();
+//        }
 
 
 
-            /* Testing findByArtist method */
-
-            /* Album */
-
-//            Album album = albumDAO.findByArtist(4);
-//            System.out.println(album.getName());
-
-            /* Artist*/
-
-//            Artist artist = artistDAO.findByName("Ionut");
-//            System.out.println(artist.getId());
-//            System.out.println(artist.getCountry());
-
-            /* Closing the connection */
-
-            connection.close();
-
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
     }
 }
