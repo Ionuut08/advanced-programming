@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbb4c167-18d8-4468-97e6-4a9c430720d6" name="Default Changelist" comment="" />
+    <list default="true" id="dbb4c167-18d8-4468-97e6-4a9c430720d6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FifthLaboratory/META-INF/FifthLaboratory.kotlin_module" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +13,9 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -17,10 +23,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1ZDoZaOI8cqYW3ZKnSVaqBeXnEc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -28,6 +38,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
@@ -64,11 +75,12 @@
       <workItem from="1584582913928" duration="5415000" />
       <workItem from="1584645316508" duration="1706000" />
       <workItem from="1584647289625" duration="253000" />
+      <workItem from="1589722735576" duration="17000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="187" width="672" height="691" key="#Main" timestamp="1584383174405">
@@ -87,21 +99,25 @@
       <screen x="0" y="35" width="1680" height="999" />
     </state>
     <state x="568" y="35" width="524" height="999" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.35.1680.999/1680.0.1920.1080@0.35.1680.999" timestamp="1584386577222" />
-    <state width="1077" height="260" key="GridCell.Tab.0.bottom" timestamp="1584647544901">
-      <screen x="0" y="35" width="1680" height="999" />
+    <state width="1248" height="251" key="GridCell.Tab.0.bottom" timestamp="1589722751933">
+      <screen x="0" y="30" width="1680" height="963" />
     </state>
+    <state width="1248" height="251" key="GridCell.Tab.0.bottom/0.30.1680.963@0.30.1680.963" timestamp="1589722751933" />
     <state width="1077" height="260" key="GridCell.Tab.0.bottom/0.35.1680.999/1680.0.1920.1080@0.35.1680.999" timestamp="1584647544901" />
-    <state width="1077" height="260" key="GridCell.Tab.0.center" timestamp="1584647544900">
-      <screen x="0" y="35" width="1680" height="999" />
+    <state width="1248" height="251" key="GridCell.Tab.0.center" timestamp="1589722751933">
+      <screen x="0" y="30" width="1680" height="963" />
     </state>
+    <state width="1248" height="251" key="GridCell.Tab.0.center/0.30.1680.963@0.30.1680.963" timestamp="1589722751933" />
     <state width="1077" height="260" key="GridCell.Tab.0.center/0.35.1680.999/1680.0.1920.1080@0.35.1680.999" timestamp="1584647544900" />
-    <state width="1077" height="260" key="GridCell.Tab.0.left" timestamp="1584647544900">
-      <screen x="0" y="35" width="1680" height="999" />
+    <state width="1248" height="251" key="GridCell.Tab.0.left" timestamp="1589722751933">
+      <screen x="0" y="30" width="1680" height="963" />
     </state>
+    <state width="1248" height="251" key="GridCell.Tab.0.left/0.30.1680.963@0.30.1680.963" timestamp="1589722751933" />
     <state width="1077" height="260" key="GridCell.Tab.0.left/0.35.1680.999/1680.0.1920.1080@0.35.1680.999" timestamp="1584647544900" />
-    <state width="1077" height="260" key="GridCell.Tab.0.right" timestamp="1584647544900">
-      <screen x="0" y="35" width="1680" height="999" />
+    <state width="1248" height="251" key="GridCell.Tab.0.right" timestamp="1589722751933">
+      <screen x="0" y="30" width="1680" height="963" />
     </state>
+    <state width="1248" height="251" key="GridCell.Tab.0.right/0.30.1680.963@0.30.1680.963" timestamp="1589722751933" />
     <state width="1077" height="260" key="GridCell.Tab.0.right/0.35.1680.999/1680.0.1920.1080@0.35.1680.999" timestamp="1584647544900" />
     <state width="794" height="321" key="GridCell.Tab.1.bottom" timestamp="1584647433794">
       <screen x="0" y="35" width="1680" height="999" />
