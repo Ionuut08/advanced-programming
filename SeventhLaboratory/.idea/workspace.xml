@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afe56868-8aa8-4cc4-994d-293aad455fa9" name="Default Changelist" comment="" />
+    <list default="true" id="afe56868-8aa8-4cc4-994d-293aad455fa9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restapplication_lab10/restapplication_lab10.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hplusapp/hplusapp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../hplusapp/hplusapp/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,19 +24,26 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1Zu2QLW6JxTb2FKZ8WxhedXFmYw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
@@ -39,7 +53,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -57,92 +83,56 @@
       <workItem from="1585991529516" duration="4854000" />
       <workItem from="1586029835423" duration="1629000" />
       <workItem from="1586073178175" duration="5921000" />
+      <workItem from="1618305958996" duration="1669000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="977" y="187" key="#Main" timestamp="1585757592611">
-      <screen x="0" y="30" width="1680" height="967" />
-    </state>
-    <state x="977" y="187" key="#Main/0.30.1680.967@0.30.1680.967" timestamp="1585757592611" />
-    <state x="1197" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1586078208873">
-      <screen x="0" y="30" width="1680" height="967" />
-    </state>
-    <state x="1197" y="141" key="#com.intellij.ide.util.MemberChooser/0.30.1680.965@0.30.1680.965" timestamp="1585830917743" />
-    <state x="1197" y="141" key="#com.intellij.ide.util.MemberChooser/0.30.1680.967@0.30.1680.967" timestamp="1586078208873" />
-    <state x="1197" y="141" key="#com.intellij.ide.util.MemberChooser/0.30.1680.969@0.30.1680.969" timestamp="1585993616477" />
-    <state x="996" y="264" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1585992621993">
-      <screen x="0" y="30" width="1680" height="969" />
-    </state>
-    <state x="996" y="264" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.30.1680.969@0.30.1680.969" timestamp="1585992621993" />
-    <state width="794" height="318" key="GridCell.Tab.0.bottom" timestamp="1586080756479">
-      <screen x="0" y="30" width="1680" height="967" />
-    </state>
-    <state width="794" height="174" key="GridCell.Tab.0.bottom/0.30.1680.965@0.30.1680.965" timestamp="1585834927285" />
-    <state width="794" height="318" key="GridCell.Tab.0.bottom/0.30.1680.967@0.30.1680.967" timestamp="1586080756479" />
-    <state width="794" height="174" key="GridCell.Tab.0.bottom/0.30.1680.969@0.30.1680.969" timestamp="1585994227095" />
-    <state width="1637" height="172" key="GridCell.Tab.0.bottom/0.30.1680.971@0.30.1680.971" timestamp="1586031928100" />
-    <state width="1877" height="181" key="GridCell.Tab.0.bottom/0.30.1920.993@0.30.1920.993" timestamp="1585838410938" />
-    <state width="794" height="318" key="GridCell.Tab.0.center" timestamp="1586080756478">
-      <screen x="0" y="30" width="1680" height="967" />
-    </state>
-    <state width="794" height="174" key="GridCell.Tab.0.center/0.30.1680.965@0.30.1680.965" timestamp="1585834927284" />
-    <state width="794" height="318" key="GridCell.Tab.0.center/0.30.1680.967@0.30.1680.967" timestamp="1586080756478" />
-    <state width="794" height="174" key="GridCell.Tab.0.center/0.30.1680.969@0.30.1680.969" timestamp="1585994227095" />
-    <state width="1637" height="172" key="GridCell.Tab.0.center/0.30.1680.971@0.30.1680.971" timestamp="1586031928099" />
-    <state width="1877" height="181" key="GridCell.Tab.0.center/0.30.1920.993@0.30.1920.993" timestamp="1585838410937" />
-    <state width="794" height="318" key="GridCell.Tab.0.left" timestamp="1586080756477">
-      <screen x="0" y="30" width="1680" height="967" />
-    </state>
-    <state width="794" height="174" key="GridCell.Tab.0.left/0.30.1680.965@0.30.1680.965" timestamp="1585834927284" />
-    <state width="794" height="318" key="GridCell.Tab.0.left/0.30.1680.967@0.30.1680.967" timestamp="1586080756477" />
-    <state width="794" height="174" key="GridCell.Tab.0.left/0.30.1680.969@0.30.1680.969" timestamp="1585994227095" />
-    <state width="1637" height="172" key="GridCell.Tab.0.left/0.30.1680.971@0.30.1680.971" timestamp="1586031928098" />
-    <state width="1877" height="181" key="GridCell.Tab.0.left/0.30.1920.993@0.30.1920.993" timestamp="1585838410936" />
-    <state width="794" height="318" key="GridCell.Tab.0.right" timestamp="1586080756478">
-      <screen x="0" y="30" width="1680" height="967" />
-    </state>
-    <state width="794" height="174" key="GridCell.Tab.0.right/0.30.1680.965@0.30.1680.965" timestamp="1585834927284" />
-    <state width="794" height="318" key="GridCell.Tab.0.right/0.30.1680.967@0.30.1680.967" timestamp="1586080756478" />
-    <state width="794" height="174" key="GridCell.Tab.0.right/0.30.1680.969@0.30.1680.969" timestamp="1585994227095" />
-    <state width="1637" height="172" key="GridCell.Tab.0.right/0.30.1680.971@0.30.1680.971" timestamp="1586031928099" />
-    <state width="1877" height="181" key="GridCell.Tab.0.right/0.30.1920.993@0.30.1920.993" timestamp="1585838410937" />
-    <state width="794" height="318" key="GridCell.Tab.1.bottom" timestamp="1586080756480">
-      <screen x="0" y="30" width="1680" height="967" />
-    </state>
-    <state width="794" height="318" key="GridCell.Tab.1.bottom/0.30.1680.967@0.30.1680.967" timestamp="1586080756480" />
-    <state width="794" height="318" key="GridCell.Tab.1.center" timestamp="1586080756479">
-      <screen x="0" y="30" width="1680" height="967" />
-    </state>
-    <state width="794" height="318" key="GridCell.Tab.1.center/0.30.1680.967@0.30.1680.967" timestamp="1586080756479" />
-    <state width="794" height="318" key="GridCell.Tab.1.left" timestamp="1586080756479">
-      <screen x="0" y="30" width="1680" height="967" />
-    </state>
-    <state width="794" height="318" key="GridCell.Tab.1.left/0.30.1680.967@0.30.1680.967" timestamp="1586080756479" />
-    <state width="794" height="318" key="GridCell.Tab.1.right" timestamp="1586080756479">
-      <screen x="0" y="30" width="1680" height="967" />
-    </state>
-    <state width="794" height="318" key="GridCell.Tab.1.right/0.30.1680.967@0.30.1680.967" timestamp="1586080756479" />
-    <state x="956" y="337" key="com.intellij.ide.util.TipDialog" timestamp="1586073187237">
-      <screen x="0" y="30" width="1680" height="967" />
-    </state>
-    <state x="956" y="337" key="com.intellij.ide.util.TipDialog/0.30.1680.967@0.30.1680.967" timestamp="1586073187237" />
-    <state x="956" y="338" key="com.intellij.ide.util.TipDialog/0.30.1680.969@0.30.1680.969" timestamp="1585991530690" />
-    <state x="1093" y="346" key="com.intellij.ide.util.TipDialog/0.30.1920.993@0.30.1920.993" timestamp="1585837759349" />
-    <state x="966" y="145" key="refactoring.ChangeSignatureDialog" timestamp="1585832761711">
-      <screen x="0" y="30" width="1680" height="967" />
-    </state>
-    <state x="966" y="145" key="refactoring.ChangeSignatureDialog/0.30.1680.967@0.30.1680.967" timestamp="1585832761711" />
-    <state x="922" y="241" key="run.anything.popup" timestamp="1585992078372">
-      <screen x="0" y="30" width="1680" height="969" />
-    </state>
-    <state x="922" y="241" key="run.anything.popup/0.30.1680.969@0.30.1680.969" timestamp="1585992078372" />
-    <state x="923" y="242" width="672" height="678" key="search.everywhere.popup" timestamp="1585756931733">
-      <screen x="0" y="30" width="1680" height="967" />
-    </state>
-    <state x="923" y="242" width="672" height="678" key="search.everywhere.popup/0.30.1680.967@0.30.1680.967" timestamp="1585756931733" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Player.java</url>
+          <line>26</line>
+          <properties class="Player" method="run">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Game.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Game.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Player.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="extractedToken" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

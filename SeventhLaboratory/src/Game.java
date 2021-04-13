@@ -47,7 +47,8 @@ public class Game {
                     new Thread(firstPlayer).start();
                     new Thread(firstPlayer).run();
                     new Thread(firstPlayer).wait(100);
-//                new Thread(secondPlayer).start();
+                    new Thread(secondPlayer).start();
+                    new Thread(secondPlayer).run();
                     System.out.println("The game is on");
                 }
             }
